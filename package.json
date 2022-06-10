@@ -4,8 +4,12 @@
   "main": "index.js",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "watch:start": "tsc-watch --onSuccess \"node dist/Main.js\""
+  },
   "devDependencies": {
     "@types/cron": "^2.0.0",
+    "@types/validator": "^13.7.2",
     "@typescript-eslint/eslint-plugin": "^5.27.0",
     "@typescript-eslint/parser": "^5.27.0",
     "eslint": "^7.32.0 || ^8.2.0",
@@ -21,12 +25,14 @@
     "axios": "^0.27.2",
     "canvas": "^2.9.1",
     "cron": "^2.0.0",
-    "discord.js": "^13.7.0",
+    "discord.js": "^13.8.0",
     "discordx": "^9.7.1",
     "dotenv": "^16.0.1",
     "i18next": "^21.8.5",
     "mongoose": "^6.3.4",
+    "node-cache": "^5.1.2",
     "pino": "^7.11.0",
-    "reflect-metadata": "^0.1.13"
+    "reflect-metadata": "^0.1.13",
+    "validator": "^13.7.0"
   }
 }

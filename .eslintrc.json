@@ -27,7 +27,8 @@
         "indent": "off",
         "@typescript-eslint/indent": ["error", 2],
         "no-nested-ternary": "off",
-        "class-methods-use-this": "warn"
+        "class-methods-use-this": "off",
+        "no-dupe-class-members": "off"
     },
     "settings": {
         "import/resolver": {

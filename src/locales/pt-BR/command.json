@@ -1,0 +1,8 @@
+{
+  "settings": {
+    "content": "testando..."
+  },
+  "scheduled_action": {
+    "confused": "Achou o comando muito confuso? Tente usar a dashboard!"
+  }
+}
